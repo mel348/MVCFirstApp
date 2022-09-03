@@ -32,7 +32,7 @@ namespace MVCFirstApp.Controllers
         //GET : Home -----GET Method
         public string myIndex()                                         //Lose menu view, so pass through a view to retain menu
         {
-            return "Mel is like the little engine that could! I think I can I think I can!";
+            return "Mel is like the little engine that could! I think I can I think I can!!!";
         }
 
         public IActionResult Privacy()
